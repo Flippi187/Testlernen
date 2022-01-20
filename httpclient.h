@@ -9,6 +9,8 @@ class httpclient : public QMainWindow, private Ui::httpclient
 
 public:
     explicit httpclient(QWidget *parent = nullptr);
+private slots:
+    void on_g_absenden_clicked();
 };
 
 #endif // HTTPCLIENT_H

@@ -5,3 +5,8 @@ httpclient::httpclient(QWidget *parent) :
 {
     setupUi(this);
 }
+
+void httpclient::on_g_absenden_clicked()
+{
+
+}
